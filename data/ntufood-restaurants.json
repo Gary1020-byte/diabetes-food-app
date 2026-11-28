@@ -1,0 +1,2919 @@
+{
+  "metadata": {
+    "source_name": "NTUFOOD 台大美食隨機選擇器",
+    "source_site": "https://www.ntufood.com/",
+    "source_repo": "https://github.com/pcwu2022/ntufood",
+    "source_data_file": "https://www.ntufood.com/frontend/data.json",
+    "source_data_csv": "https://github.com/pcwu2022/ntufood/blob/master/generate/data.csv",
+    "source_sheet": "https://docs.google.com/spreadsheets/d/1k7IUK_FrCZbTatBzo8tfCVHp7Xrc1764eFq2fBQuScg/edit?usp=sharing",
+    "creators": [
+      "Po-Chun Wu (pcwu2022)",
+      "Eric Yeh (ergs0204)"
+    ],
+    "retrieved_at": "2026-11-25T19:00+08:00",
+    "record_count": 176,
+    "license_note": "The source repository (pcwu2022/ntufood) has NO license file, so the dataset is not under an open license. Do not redistribute it as open data without asking the authors. Attribute the source (NTUFOOD / ntufood.com) in the app, and ask the authors for permission before shipping this data in a public release.",
+    "notes": [
+      "Coordinates come from the source data as-is; the site itself warns map positions may be inaccurate.",
+      "Price is a 1-5 level (coins on the site); 4 records have no price (null).",
+      "Tags are only marked when the source marks them 'O'.",
+      "'翊芳庭生活館' appears twice in the source (Bento and Breakfast, same spot) — both entries kept as-is.",
+      "Only 2 records have non-empty comments."
+    ]
+  },
+  "location_labels": {
+    "XinshengSouth": "新生南路",
+    "Heping118": "118 巷",
+    "Gongguan": "公館",
+    "School": "校內",
+    "Liuzhangli": "六張犁",
+    "Shida": "師大",
+    "NTUST": "台科大",
+    "NTUMed": "醫學院"
+  },
+  "genre_labels": {
+    "Bento": "便當菜/快餐",
+    "Japanese": "日式料理",
+    "HotPot": "小火鍋",
+    "Chinese": "中式餐廳",
+    "FastFood": "速食",
+    "American": "美式餐廳",
+    "Italian": "義式料理",
+    "Breakfast": "早餐店",
+    "Noodles": "麵店",
+    "Vegetarian": "素食",
+    "BreakfastBrunch": "早午餐",
+    "Steak": "牛排館",
+    "Ramen": "拉麵店",
+    "SouthEastAsian": "東南亞料理",
+    "Dessert": "甜點店",
+    "LouMei": "滷味",
+    "Bar": "酒吧",
+    "Cafe": "咖啡廳",
+    "Buffet": "自助餐",
+    "Indian": "印度",
+    "Light": "輕食",
+    "Korean": "韓式料理",
+    "HongKong": "港式料理",
+    "Exotic": "異國料理",
+    "French": "法式料理"
+  },
+  "tag_labels": {
+    "OnePerson": "一個人吃",
+    "Gathering": "多人聚餐",
+    "Dating": "適合約會",
+    "FastServe": "快速上菜",
+    "SlowEat": "慢慢吃"
+  },
+  "restaurants": [
+    {
+      "id": "ntufood-001",
+      "name": "孫東寶牛排",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Steak",
+      "genre_zh": "牛排館",
+      "price": 1,
+      "tags": [
+        "Gathering",
+        "Dating"
+      ],
+      "latitude": 25.01826359388706,
+      "longitude": 121.5310917601049,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%AD%AB%E6%9D%B1%E5%AF%B6%E7%89%9B%E6%8E%92/@25.01826359388706,121.5310917601049,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-002",
+      "name": "Este día 古巴三明治",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "American",
+      "genre_zh": "美式餐廳",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.016954412773924,
+      "longitude": 121.53050352697163,
+      "google_maps_url": "https://www.google.com/maps/search/Este%20d%C3%ADa%20%E5%8F%A4%E5%B7%B4%E4%B8%89%E6%98%8E%E6%B2%BB/@25.016954412773924,121.53050352697163,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-003",
+      "name": "大福利排骨大王",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Bento",
+      "genre_zh": "便當菜/快餐",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01721185203005,
+      "longitude": 121.53236737849168,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%A4%A7%E7%A6%8F%E5%88%A9%E6%8E%92%E9%AA%A8%E5%A4%A7%E7%8E%8B/@25.01721185203005,121.53236737849168,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-004",
+      "name": "台大牛莊",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Bento",
+      "genre_zh": "便當菜/快餐",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.016231502383476,
+      "longitude": 121.53207870816478,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%8F%B0%E5%A4%A7%E7%89%9B%E8%8E%8A/@25.016231502383476,121.53207870816478,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-005",
+      "name": "站食可以",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Bento",
+      "genre_zh": "便當菜/快餐",
+      "price": 1,
+      "tags": [
+        "OnePerson",
+        "FastServe"
+      ],
+      "latitude": 25.015524536303253,
+      "longitude": 121.53257532535561,
+      "google_maps_url": "https://www.google.com/maps/search/%E7%AB%99%E9%A3%9F%E5%8F%AF%E4%BB%A5/@25.015524536303253,121.53257532535561,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-006",
+      "name": "師大第一腿(公館店）",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Bento",
+      "genre_zh": "便當菜/快餐",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.012280858196178,
+      "longitude": 121.53560555099031,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%B8%AB%E5%A4%A7%E7%AC%AC%E4%B8%80%E8%85%BF%28%E5%85%AC%E9%A4%A8%E5%BA%97%EF%BC%89/@25.012280858196178,121.53560555099031,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-007",
+      "name": "JJ's POKE & CAFE 鮮魚沙拉飯",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Bento",
+      "genre_zh": "便當菜/快餐",
+      "price": 2,
+      "tags": [
+        "OnePerson",
+        "Gathering",
+        "Dating",
+        "FastServe",
+        "SlowEat"
+      ],
+      "latitude": 25.013431407140516,
+      "longitude": 121.53426583879134,
+      "google_maps_url": "https://www.google.com/maps/search/JJ%27s%20POKE%20%26%20CAFE%20%E9%AE%AE%E9%AD%9A%E6%B2%99%E6%8B%89%E9%A3%AF/@25.013431407140516,121.53426583879134,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-008",
+      "name": "大水元",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Bento",
+      "genre_zh": "便當菜/快餐",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01347272803002,
+      "longitude": 121.5347848462357,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%A4%A7%E6%B0%B4%E5%85%83/@25.01347272803002,121.5347848462357,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-009",
+      "name": "能量小姐 台北公館",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Bento",
+      "genre_zh": "便當菜/快餐",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.014773828573034,
+      "longitude": 121.53372450871876,
+      "google_maps_url": "https://www.google.com/maps/search/%E8%83%BD%E9%87%8F%E5%B0%8F%E5%A7%90%20%E5%8F%B0%E5%8C%97%E5%85%AC%E9%A4%A8/@25.014773828573034,121.53372450871876,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-010",
+      "name": "藍家割包",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Chinese",
+      "genre_zh": "中式餐廳",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.015868602340515,
+      "longitude": 121.53255292685243,
+      "google_maps_url": "https://www.google.com/maps/search/%E8%97%8D%E5%AE%B6%E5%89%B2%E5%8C%85/@25.015868602340515,121.53255292685243,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-011",
+      "name": "胡饕米粉湯",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Noodles",
+      "genre_zh": "麵店",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.016421083084325,
+      "longitude": 121.53199886057395,
+      "google_maps_url": "https://www.google.com/maps/search/%E8%83%A1%E9%A5%95%E7%B1%B3%E7%B2%89%E6%B9%AF/@25.016421083084325,121.53199886057395,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-012",
+      "name": "五九麵館（公館店）",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Noodles",
+      "genre_zh": "麵店",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.016104369687202,
+      "longitude": 121.53184496546027,
+      "google_maps_url": "https://www.google.com/maps/search/%E4%BA%94%E4%B9%9D%E9%BA%B5%E9%A4%A8%EF%BC%88%E5%85%AC%E9%A4%A8%E5%BA%97%EF%BC%89/@25.016104369687202,121.53184496546027,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-013",
+      "name": "金雞園",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Chinese",
+      "genre_zh": "中式餐廳",
+      "price": 3,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.016654861310794,
+      "longitude": 121.53257108583773,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%87%91%E9%9B%9E%E5%9C%92/@25.016654861310794,121.53257108583773,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-014",
+      "name": "沙嗲士多",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Chinese",
+      "genre_zh": "中式餐廳",
+      "price": 3,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01580868062955,
+      "longitude": 121.53212529651965,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%B2%99%E5%97%B2%E5%A3%AB%E5%A4%9A/@25.01580868062955,121.53212529651965,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-015",
+      "name": "李記正客家魷魚羹",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Chinese",
+      "genre_zh": "中式餐廳",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01212651094133,
+      "longitude": 121.53568333505177,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%9D%8E%E8%A8%98%E6%AD%A3%E5%AE%A2%E5%AE%B6%E9%AD%B7%E9%AD%9A%E7%BE%B9/@25.01212651094133,121.53568333505177,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-016",
+      "name": "公館小吃店",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Chinese",
+      "genre_zh": "中式餐廳",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.012758117696517,
+      "longitude": 121.53566863410633,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%85%AC%E9%A4%A8%E5%B0%8F%E5%90%83%E5%BA%97/@25.012758117696517,121.53566863410633,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-017",
+      "name": "龍記炒燴",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Chinese",
+      "genre_zh": "中式餐廳",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01357948902756,
+      "longitude": 121.53476210717014,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%BE%8D%E8%A8%98%E7%82%92%E7%87%B4/@25.01357948902756,121.53476210717014,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-018",
+      "name": "祥記炒燴",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Chinese",
+      "genre_zh": "中式餐廳",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01368249688773,
+      "longitude": 121.53498601082849,
+      "google_maps_url": "https://www.google.com/maps/search/%E7%A5%A5%E8%A8%98%E7%82%92%E7%87%B4/@25.01368249688773,121.53498601082849,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-019",
+      "name": "清華軒",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Chinese",
+      "genre_zh": "中式餐廳",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01357693563742,
+      "longitude": 121.53465586418257,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%B8%85%E8%8F%AF%E8%BB%92/@25.01357693563742,121.53465586418257,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-020",
+      "name": "源士林粥品",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Chinese",
+      "genre_zh": "中式餐廳",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.013899556272264,
+      "longitude": 121.53381296026129,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%BA%90%E5%A3%AB%E6%9E%97%E7%B2%A5%E5%93%81/@25.013899556272264,121.53381296026129,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-021",
+      "name": "老鐵沒毛病酸菜魚",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Chinese",
+      "genre_zh": "中式餐廳",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.018489104322008,
+      "longitude": 121.53184608342899,
+      "google_maps_url": "https://www.google.com/maps/search/%E8%80%81%E9%90%B5%E6%B2%92%E6%AF%9B%E7%97%85%E9%85%B8%E8%8F%9C%E9%AD%9A/@25.018489104322008,121.53184608342899,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-022",
+      "name": "潭鮮台南虱目魚",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Chinese",
+      "genre_zh": "中式餐廳",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.017585290097372,
+      "longitude": 121.53176127509418,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%BD%AD%E9%AE%AE%E5%8F%B0%E5%8D%97%E8%99%B1%E7%9B%AE%E9%AD%9A/@25.017585290097372,121.53176127509418,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-023",
+      "name": "晴光紅豆餅",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Dessert",
+      "genre_zh": "甜點店",
+      "price": 1,
+      "tags": [
+        "OnePerson",
+        "FastServe"
+      ],
+      "latitude": 25.01418560926248,
+      "longitude": 121.53531071730241,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%99%B4%E5%85%89%E7%B4%85%E8%B1%86%E9%A4%85/@25.01418560926248,121.53531071730241,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-024",
+      "name": "法點法食",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Dessert",
+      "genre_zh": "甜點店",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.012205340418543,
+      "longitude": 121.53552769467107,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%B3%95%E9%BB%9E%E6%B3%95%E9%A3%9F/@25.012205340418543,121.53552769467107,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-025",
+      "name": "Mr. 雪腐 公館店",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Dessert",
+      "genre_zh": "甜點店",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.016674698064097,
+      "longitude": 121.53052012147705,
+      "google_maps_url": "https://www.google.com/maps/search/Mr.%20%E9%9B%AA%E8%85%90%20%E5%85%AC%E9%A4%A8%E5%BA%97/@25.016674698064097,121.53052012147705,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-026",
+      "name": "ほし食驗室",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Dessert",
+      "genre_zh": "甜點店",
+      "price": 5,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.014958105644652,
+      "longitude": 121.53295123742339,
+      "google_maps_url": "https://www.google.com/maps/search/%E3%81%BB%E3%81%97%E9%A3%9F%E9%A9%97%E5%AE%A4/@25.014958105644652,121.53295123742339,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-027",
+      "name": "鴉片粉圓",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Dessert",
+      "genre_zh": "甜點店",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.014460665730272,
+      "longitude": 121.53369303277788,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%B4%89%E7%89%87%E7%B2%89%E5%9C%93/@25.014460665730272,121.53369303277788,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-028",
+      "name": "Big Apple mini",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "FastFood",
+      "genre_zh": "速食",
+      "price": 3,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.013070030255474,
+      "longitude": 121.53572242331143,
+      "google_maps_url": "https://www.google.com/maps/search/Big%20Apple%20mini/@25.013070030255474,121.53572242331143,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-029",
+      "name": "頂呱呱",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "FastFood",
+      "genre_zh": "速食",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.0129584038828,
+      "longitude": 121.53589522956429,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%A0%82%E5%91%B1%E5%91%B1/@25.0129584038828,121.53589522956429,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-030",
+      "name": "鍋 in",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "HotPot",
+      "genre_zh": "小火鍋",
+      "price": 2,
+      "tags": [
+        "OnePerson",
+        "Gathering",
+        "FastServe",
+        "SlowEat"
+      ],
+      "latitude": 25.01264100385527,
+      "longitude": 121.5352315631207,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%8D%8B%20in/@25.01264100385527,121.5352315631207,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-031",
+      "name": "無鍋不樂",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "HotPot",
+      "genre_zh": "小火鍋",
+      "price": 2,
+      "tags": [
+        "OnePerson",
+        "Gathering"
+      ],
+      "latitude": 25.014896632573006,
+      "longitude": 121.53407284888723,
+      "google_maps_url": "https://www.google.com/maps/search/%E7%84%A1%E9%8D%8B%E4%B8%8D%E6%A8%82/@25.014896632573006,121.53407284888723,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-032",
+      "name": "得記麻辣",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "HotPot",
+      "genre_zh": "小火鍋",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01444122076589,
+      "longitude": 121.53372119597311,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%BE%97%E8%A8%98%E9%BA%BB%E8%BE%A3/@25.01444122076589,121.53372119597311,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-033",
+      "name": "義樂義大利麵",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Italian",
+      "genre_zh": "義式料理",
+      "price": 1,
+      "tags": [
+        "Gathering",
+        "SlowEat"
+      ],
+      "latitude": 25.017688499108303,
+      "longitude": 121.53196334664675,
+      "google_maps_url": "https://www.google.com/maps/search/%E7%BE%A9%E6%A8%82%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5/@25.017688499108303,121.53196334664675,17z",
+      "comments": "出示學生證可加麵"
+    },
+    {
+      "id": "ntufood-034",
+      "name": "轉轉發現義大利麵",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Italian",
+      "genre_zh": "義式料理",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.013922006852724,
+      "longitude": 121.53404810354263,
+      "google_maps_url": "https://www.google.com/maps/search/%E8%BD%89%E8%BD%89%E7%99%BC%E7%8F%BE%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5/@25.013922006852724,121.53404810354263,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-035",
+      "name": "嵐迪義大利麵館",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Italian",
+      "genre_zh": "義式料理",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.016395178189747,
+      "longitude": 121.5323547416439,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%B5%90%E8%BF%AA%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5%E9%A4%A8/@25.016395178189747,121.5323547416439,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-036",
+      "name": "SUKIYA",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Japanese",
+      "genre_zh": "日式料理",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01742076235664,
+      "longitude": 121.53196175694501,
+      "google_maps_url": "https://www.google.com/maps/search/SUKIYA/@25.01742076235664,121.53196175694501,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-037",
+      "name": "靜壽司",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Japanese",
+      "genre_zh": "日式料理",
+      "price": 3,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01582848060142,
+      "longitude": 121.53218407932924,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%9D%9C%E5%A3%BD%E5%8F%B8/@25.01582848060142,121.53218407932924,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-038",
+      "name": "小原田日本料理",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Japanese",
+      "genre_zh": "日式料理",
+      "price": null,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.018711111597966,
+      "longitude": 121.53123337319585,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%B0%8F%E5%8E%9F%E7%94%B0%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86/@25.018711111597966,121.53123337319585,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-039",
+      "name": "山嵐拉麵",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Japanese",
+      "genre_zh": "日式料理",
+      "price": 4,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.013194924933522,
+      "longitude": 121.53542129194071,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%B1%B1%E5%B5%90%E6%8B%89%E9%BA%B5/@25.013194924933522,121.53542129194071,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-040",
+      "name": "米澤製麵",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Japanese",
+      "genre_zh": "日式料理",
+      "price": 3,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.012990315871306,
+      "longitude": 121.5357868720905,
+      "google_maps_url": "https://www.google.com/maps/search/%E7%B1%B3%E6%BE%A4%E8%A3%BD%E9%BA%B5/@25.012990315871306,121.5357868720905,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-041",
+      "name": "スシロー壽司郎 台北公館店",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Japanese",
+      "genre_zh": "日式料理",
+      "price": 5,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.014487105477194,
+      "longitude": 121.53436517708292,
+      "google_maps_url": "https://www.google.com/maps/search/%E3%82%B9%E3%82%B7%E3%83%AD%E3%83%BC%E5%A3%BD%E5%8F%B8%E9%83%8E%20%E5%8F%B0%E5%8C%97%E5%85%AC%E9%A4%A8%E5%BA%97/@25.014487105477194,121.53436517708292,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-042",
+      "name": "大埔鐵板燒",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Japanese",
+      "genre_zh": "日式料理",
+      "price": 2,
+      "tags": [
+        "OnePerson",
+        "FastServe"
+      ],
+      "latitude": 25.01219335426666,
+      "longitude": 121.53562633810999,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%A4%A7%E5%9F%94%E9%90%B5%E6%9D%BF%E7%87%92/@25.01219335426666,121.53562633810999,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-043",
+      "name": "喫尤平價鐵板燒",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Japanese",
+      "genre_zh": "日式料理",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.013820560708165,
+      "longitude": 121.53426088916737,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%96%AB%E5%B0%A4%E5%B9%B3%E5%83%B9%E9%90%B5%E6%9D%BF%E7%87%92/@25.013820560708165,121.53426088916737,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-044",
+      "name": "築本屋公館店",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Japanese",
+      "genre_zh": "日式料理",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.014827302080406,
+      "longitude": 121.53375937743601,
+      "google_maps_url": "https://www.google.com/maps/search/%E7%AF%89%E6%9C%AC%E5%B1%8B%E5%85%AC%E9%A4%A8%E5%BA%97/@25.014827302080406,121.53375937743601,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-045",
+      "name": "韓天閣",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Korean",
+      "genre_zh": "韓式料理",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.014257321892575,
+      "longitude": 121.53417109652004,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%9F%93%E5%A4%A9%E9%96%A3/@25.014257321892575,121.53417109652004,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-046",
+      "name": "小飯館兒",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Korean",
+      "genre_zh": "韓式料理",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.012223748688537,
+      "longitude": 121.53541875969958,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%B0%8F%E9%A3%AF%E9%A4%A8%E5%85%92/@25.012223748688537,121.53541875969958,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-047",
+      "name": "韓熙恩24h無人拉麵店",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Korean",
+      "genre_zh": "韓式料理",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01329690743366,
+      "longitude": 121.53460652067605,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%9F%93%E7%86%99%E6%81%A924h%E7%84%A1%E4%BA%BA%E6%8B%89%E9%BA%B5%E5%BA%97/@25.01329690743366,121.53460652067605,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-048",
+      "name": "劉家水煎包",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Light",
+      "genre_zh": "輕食",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01461744067446,
+      "longitude": 121.53312440446707,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%8A%89%E5%AE%B6%E6%B0%B4%E7%85%8E%E5%8C%85/@25.01461744067446,121.53312440446707,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-049",
+      "name": "何太守港式菠蘿包",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Light",
+      "genre_zh": "輕食",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.015221200320166,
+      "longitude": 121.5322599458017,
+      "google_maps_url": "https://www.google.com/maps/search/%E4%BD%95%E5%A4%AA%E5%AE%88%E6%B8%AF%E5%BC%8F%E8%8F%A0%E8%98%BF%E5%8C%85/@25.015221200320166,121.5322599458017,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-050",
+      "name": "公館阿姨滷味",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "LouMei",
+      "genre_zh": "滷味",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01628937994413,
+      "longitude": 121.53230059467121,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%85%AC%E9%A4%A8%E9%98%BF%E5%A7%A8%E6%BB%B7%E5%91%B3/@25.01628937994413,121.53230059467121,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-051",
+      "name": "劉記川味牛肉麵",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Noodles",
+      "genre_zh": "麵店",
+      "price": 3,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01569864817059,
+      "longitude": 121.53251003544734,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%8A%89%E8%A8%98%E5%B7%9D%E5%91%B3%E7%89%9B%E8%82%89%E9%BA%B5/@25.01569864817059,121.53251003544734,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-052",
+      "name": "好想見麵",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Noodles",
+      "genre_zh": "麵店",
+      "price": null,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01707898335809,
+      "longitude": 121.5321829462751,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%A5%BD%E6%83%B3%E8%A6%8B%E9%BA%B5/@25.01707898335809,121.5321829462751,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-053",
+      "name": "一川鍋燒麵",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Noodles",
+      "genre_zh": "麵店",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.012859354837598,
+      "longitude": 121.53565114854356,
+      "google_maps_url": "https://www.google.com/maps/search/%E4%B8%80%E5%B7%9D%E9%8D%8B%E7%87%92%E9%BA%B5/@25.012859354837598,121.53565114854356,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-054",
+      "name": "公館麵線",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Noodles",
+      "genre_zh": "麵店",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.012814387760024,
+      "longitude": 121.53585566698123,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%85%AC%E9%A4%A8%E9%BA%B5%E7%B7%9A/@25.012814387760024,121.53585566698123,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-055",
+      "name": "道楽製麵所",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Ramen",
+      "genre_zh": "拉麵店",
+      "price": 3,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01329750789052,
+      "longitude": 121.53410177850562,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%81%93%E6%A5%BD%E8%A3%BD%E9%BA%B5%E6%89%80/@25.01329750789052,121.53410177850562,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-056",
+      "name": "隱家拉麵",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Ramen",
+      "genre_zh": "拉麵店",
+      "price": 4,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01651631940149,
+      "longitude": 121.53314328019799,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%9A%B1%E5%AE%B6%E6%8B%89%E9%BA%B5/@25.01651631940149,121.53314328019799,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-057",
+      "name": "墨洋拉麵",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Ramen",
+      "genre_zh": "拉麵店",
+      "price": 4,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.012758284979085,
+      "longitude": 121.5354998811776,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%A2%A8%E6%B4%8B%E6%8B%89%E9%BA%B5/@25.012758284979085,121.5354998811776,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-058",
+      "name": "鷹流東京醬油拉麵-蘭丸",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Ramen",
+      "genre_zh": "拉麵店",
+      "price": 3,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.014209209822287,
+      "longitude": 121.53309371344996,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%B7%B9%E6%B5%81%E6%9D%B1%E4%BA%AC%E9%86%AC%E6%B2%B9%E6%8B%89%E9%BA%B5-%E8%98%AD%E4%B8%B8/@25.014209209822287,121.53309371344996,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-059",
+      "name": "濃氣屋拉麵",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Ramen",
+      "genre_zh": "拉麵店",
+      "price": 3,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01357353048373,
+      "longitude": 121.53422396665695,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%BF%83%E6%B0%A3%E5%B1%8B%E6%8B%89%E9%BA%B5/@25.01357353048373,121.53422396665695,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-060",
+      "name": "Mr. 拉麵",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Ramen",
+      "genre_zh": "拉麵店",
+      "price": 2,
+      "tags": [
+        "OnePerson",
+        "Gathering"
+      ],
+      "latitude": 25.015609488963225,
+      "longitude": 121.5320601212302,
+      "google_maps_url": "https://www.google.com/maps/search/Mr.%20%E6%8B%89%E9%BA%B5/@25.015609488963225,121.5320601212302,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-061",
+      "name": "十二巷拉麵",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Ramen",
+      "genre_zh": "拉麵店",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.015821446352902,
+      "longitude": 121.53284448882432,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%8D%81%E4%BA%8C%E5%B7%B7%E6%8B%89%E9%BA%B5/@25.015821446352902,121.53284448882432,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-062",
+      "name": "阿里媽媽",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "SouthEastAsian",
+      "genre_zh": "東南亞料理",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.013031752422012,
+      "longitude": 121.53556621001299,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%98%BF%E9%87%8C%E5%AA%BD%E5%AA%BD/@25.013031752422012,121.53556621001299,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-063",
+      "name": "塊雞師食務所",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "SouthEastAsian",
+      "genre_zh": "東南亞料理",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.012976720458823,
+      "longitude": 121.53606509837452,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%A1%8A%E9%9B%9E%E5%B8%AB%E9%A3%9F%E5%8B%99%E6%89%80/@25.012976720458823,121.53606509837452,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-064",
+      "name": "泰好吃泰國船麵",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "SouthEastAsian",
+      "genre_zh": "東南亞料理",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.013917534392892,
+      "longitude": 121.53341691963684,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%B3%B0%E5%A5%BD%E5%90%83%E6%B3%B0%E5%9C%8B%E8%88%B9%E9%BA%B5/@25.013917534392892,121.53341691963684,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-065",
+      "name": "池先生（公館店）",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "SouthEastAsian",
+      "genre_zh": "東南亞料理",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01885004329239,
+      "longitude": 121.53166595530789,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%B1%A0%E5%85%88%E7%94%9F%EF%BC%88%E5%85%AC%E9%A4%A8%E5%BA%97%EF%BC%89/@25.01885004329239,121.53166595530789,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-066",
+      "name": "巴生仔大馬料理店",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "SouthEastAsian",
+      "genre_zh": "東南亞料理",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.017005412039115,
+      "longitude": 121.53148092721965,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%B7%B4%E7%94%9F%E4%BB%94%E5%A4%A7%E9%A6%AC%E6%96%99%E7%90%86%E5%BA%97/@25.017005412039115,121.53148092721965,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-067",
+      "name": "味自慢牛排",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Steak",
+      "genre_zh": "牛排館",
+      "price": 4,
+      "tags": [
+        "Gathering"
+      ],
+      "latitude": 25.012465588509734,
+      "longitude": 121.53550295649511,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%91%B3%E8%87%AA%E6%85%A2%E7%89%9B%E6%8E%92/@25.012465588509734,121.53550295649511,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-068",
+      "name": "威宇牛排",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Steak",
+      "genre_zh": "牛排館",
+      "price": 4,
+      "tags": [
+        "Gathering"
+      ],
+      "latitude": 25.013039763406635,
+      "longitude": 121.53518425935799,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%A8%81%E5%AE%87%E7%89%9B%E6%8E%92/@25.013039763406635,121.53518425935799,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-069",
+      "name": "Barkers",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "American",
+      "genre_zh": "美式餐廳",
+      "price": 4,
+      "tags": [
+        "Gathering",
+        "Dating",
+        "SlowEat"
+      ],
+      "latitude": 25.023310035322535,
+      "longitude": 121.5429504235071,
+      "google_maps_url": "https://www.google.com/maps/search/Barkers/@25.023310035322535,121.5429504235071,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-070",
+      "name": "老哥雞肉飯",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Bento",
+      "genre_zh": "便當菜/快餐",
+      "price": 1,
+      "tags": [
+        "OnePerson",
+        "FastServe"
+      ],
+      "latitude": 25.025888363682228,
+      "longitude": 121.5432403991542,
+      "google_maps_url": "https://www.google.com/maps/search/%E8%80%81%E5%93%A5%E9%9B%9E%E8%82%89%E9%A3%AF/@25.025888363682228,121.5432403991542,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-071",
+      "name": "師大第一腿",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Bento",
+      "genre_zh": "便當菜/快餐",
+      "price": 2,
+      "tags": [
+        "OnePerson",
+        "Gathering"
+      ],
+      "latitude": 25.022597279728927,
+      "longitude": 121.54295633118267,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%B8%AB%E5%A4%A7%E7%AC%AC%E4%B8%80%E8%85%BF/@25.022597279728927,121.54295633118267,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-072",
+      "name": "話一隻雞",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Bento",
+      "genre_zh": "便當菜/快餐",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.025026666152595,
+      "longitude": 121.54370768394095,
+      "google_maps_url": "https://www.google.com/maps/search/%E8%A9%B1%E4%B8%80%E9%9A%BB%E9%9B%9E/@25.025026666152595,121.54370768394095,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-073",
+      "name": "鑫吉野烤肉飯",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Bento",
+      "genre_zh": "便當菜/快餐",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.022251626531073,
+      "longitude": 121.5429290002934,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%91%AB%E5%90%89%E9%87%8E%E7%83%A4%E8%82%89%E9%A3%AF/@25.022251626531073,121.5429290002934,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-074",
+      "name": "安好食 和平店",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "BreakfastBrunch",
+      "genre_zh": "早午餐",
+      "price": 1,
+      "tags": [
+        "OnePerson",
+        "Gathering"
+      ],
+      "latitude": 25.021693084745195,
+      "longitude": 121.54213437286342,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%AE%89%E5%A5%BD%E9%A3%9F%20%E5%92%8C%E5%B9%B3%E5%BA%97/@25.021693084745195,121.54213437286342,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-075",
+      "name": "Stoppage Time 補時",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Cafe",
+      "genre_zh": "咖啡廳",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.02330191722886,
+      "longitude": 121.54227730668653,
+      "google_maps_url": "https://www.google.com/maps/search/Stoppage%20Time%20%E8%A3%9C%E6%99%82/@25.02330191722886,121.54227730668653,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-076",
+      "name": "BeansLab coffee 豆研咖啡館",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Cafe",
+      "genre_zh": "咖啡廳",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.021932246106818,
+      "longitude": 121.54085263796179,
+      "google_maps_url": "https://www.google.com/maps/search/BeansLab%20coffee%20%E8%B1%86%E7%A0%94%E5%92%96%E5%95%A1%E9%A4%A8/@25.021932246106818,121.54085263796179,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-077",
+      "name": "八分目珈琲",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Cafe",
+      "genre_zh": "咖啡廳",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.0228534472852,
+      "longitude": 121.5411740586598,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%85%AB%E5%88%86%E7%9B%AE%E7%8F%88%E7%90%B2/@25.0228534472852,121.5411740586598,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-078",
+      "name": "唯雞館",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Chinese",
+      "genre_zh": "中式餐廳",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.023398304535004,
+      "longitude": 121.54292825234191,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%94%AF%E9%9B%9E%E9%A4%A8/@25.023398304535004,121.54292825234191,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-079",
+      "name": "金鳳大飯店",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Chinese",
+      "genre_zh": "中式餐廳",
+      "price": 1,
+      "tags": [
+        "OnePerson",
+        "FastServe"
+      ],
+      "latitude": 25.023056717041797,
+      "longitude": 121.54274913467577,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%87%91%E9%B3%B3%E5%A4%A7%E9%A3%AF%E5%BA%97/@25.023056717041797,121.54274913467577,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-080",
+      "name": "搗飛豆花",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Dessert",
+      "genre_zh": "甜點店",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.022914535605807,
+      "longitude": 121.54292481936645,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%90%97%E9%A3%9B%E8%B1%86%E8%8A%B1/@25.022914535605807,121.54292481936645,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-081",
+      "name": "笑嘻嘻港式現炒飯麵",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "HongKong",
+      "genre_zh": "港式料理",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.022611592342436,
+      "longitude": 121.5429504192145,
+      "google_maps_url": "https://www.google.com/maps/search/%E7%AC%91%E5%98%BB%E5%98%BB%E6%B8%AF%E5%BC%8F%E7%8F%BE%E7%82%92%E9%A3%AF%E9%BA%B5/@25.022611592342436,121.5429504192145,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-082",
+      "name": "I’m Pasta 和平店",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Italian",
+      "genre_zh": "義式料理",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.02252201676068,
+      "longitude": 121.54279875554259,
+      "google_maps_url": "https://www.google.com/maps/search/I%E2%80%99m%20Pasta%20%E5%92%8C%E5%B9%B3%E5%BA%97/@25.02252201676068,121.54279875554259,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-083",
+      "name": "餃子酒場晴屋",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Japanese",
+      "genre_zh": "日式料理",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.023247857229574,
+      "longitude": 121.54278526583607,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%A4%83%E5%AD%90%E9%85%92%E5%A0%B4%E6%99%B4%E5%B1%8B/@25.023247857229574,121.54278526583607,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-084",
+      "name": "烤丸日式食堂",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Japanese",
+      "genre_zh": "日式料理",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.022130525545627,
+      "longitude": 121.54233211808904,
+      "google_maps_url": "https://www.google.com/maps/search/%E7%83%A4%E4%B8%B8%E6%97%A5%E5%BC%8F%E9%A3%9F%E5%A0%82/@25.022130525545627,121.54233211808904,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-085",
+      "name": "高和食堂",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Japanese",
+      "genre_zh": "日式料理",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.02288425065262,
+      "longitude": 121.54267485193571,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%AB%98%E5%92%8C%E9%A3%9F%E5%A0%82/@25.02288425065262,121.54267485193571,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-086",
+      "name": "蘇草salvia",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Light",
+      "genre_zh": "輕食",
+      "price": 3,
+      "tags": [
+        "SlowEat"
+      ],
+      "latitude": 25.021657954416757,
+      "longitude": 121.54245044546411,
+      "google_maps_url": "https://www.google.com/maps/search/%E8%98%87%E8%8D%89salvia/@25.021657954416757,121.54245044546411,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-087",
+      "name": "文哥 巷仔口米粉湯",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Noodles",
+      "genre_zh": "麵店",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.02264570513897,
+      "longitude": 121.54280753766747,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%96%87%E5%93%A5%20%E5%B7%B7%E4%BB%94%E5%8F%A3%E7%B1%B3%E7%B2%89%E6%B9%AF/@25.02264570513897,121.54280753766747,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-088",
+      "name": "四面八方",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Noodles",
+      "genre_zh": "麵店",
+      "price": 2,
+      "tags": [
+        "OnePerson",
+        "FastServe"
+      ],
+      "latitude": 25.025382639403425,
+      "longitude": 121.54282689613338,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%9B%9B%E9%9D%A2%E5%85%AB%E6%96%B9/@25.025382639403425,121.54282689613338,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-089",
+      "name": "二八麵堂",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Noodles",
+      "genre_zh": "麵店",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.022226702780547,
+      "longitude": 121.54287480816504,
+      "google_maps_url": "https://www.google.com/maps/search/%E4%BA%8C%E5%85%AB%E9%BA%B5%E5%A0%82/@25.022226702780547,121.54287480816504,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-090",
+      "name": "李記水餃",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Noodles",
+      "genre_zh": "麵店",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.022406236826438,
+      "longitude": 121.54276743700049,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%9D%8E%E8%A8%98%E6%B0%B4%E9%A4%83/@25.022406236826438,121.54276743700049,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-091",
+      "name": "五九麵館",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Noodles",
+      "genre_zh": "麵店",
+      "price": 1,
+      "tags": [
+        "OnePerson",
+        "FastServe"
+      ],
+      "latitude": 25.022593483641856,
+      "longitude": 121.5428610523418,
+      "google_maps_url": "https://www.google.com/maps/search/%E4%BA%94%E4%B9%9D%E9%BA%B5%E9%A4%A8/@25.022593483641856,121.5428610523418,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-092",
+      "name": "馬祖麵館",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Noodles",
+      "genre_zh": "麵店",
+      "price": 1,
+      "tags": [
+        "OnePerson",
+        "FastServe"
+      ],
+      "latitude": 25.022942283992855,
+      "longitude": 121.54290898687344,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%A6%AC%E7%A5%96%E9%BA%B5%E9%A4%A8/@25.022942283992855,121.54290898687344,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-093",
+      "name": "裸湯白麵·雞白湯",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Ramen",
+      "genre_zh": "拉麵店",
+      "price": 4,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.025131913537493,
+      "longitude": 121.54307647962861,
+      "google_maps_url": "https://www.google.com/maps/search/%E8%A3%B8%E6%B9%AF%E7%99%BD%E9%BA%B5%C2%B7%E9%9B%9E%E7%99%BD%E6%B9%AF/@25.025131913537493,121.54307647962861,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-094",
+      "name": "壹之穴沾麵專門店",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Ramen",
+      "genre_zh": "拉麵店",
+      "price": 4,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.0221664320805,
+      "longitude": 121.54315665884448,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%A3%B9%E4%B9%8B%E7%A9%B4%E6%B2%BE%E9%BA%B5%E5%B0%88%E9%96%80%E5%BA%97/@25.0221664320805,121.54315665884448,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-095",
+      "name": "阿孟石碗燒河粉",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "SouthEastAsian",
+      "genre_zh": "東南亞料理",
+      "price": 2,
+      "tags": [
+        "OnePerson",
+        "Gathering"
+      ],
+      "latitude": 25.021975240439797,
+      "longitude": 121.54290265049411,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%98%BF%E5%AD%9F%E7%9F%B3%E7%A2%97%E7%87%92%E6%B2%B3%E7%B2%89/@25.021975240439797,121.54290265049411,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-096",
+      "name": "憶馬當鮮",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "SouthEastAsian",
+      "genre_zh": "東南亞料理",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.022502227750007,
+      "longitude": 121.54290857400645,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%86%B6%E9%A6%AC%E7%95%B6%E9%AE%AE/@25.022502227750007,121.54290857400645,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-097",
+      "name": "林記海南雞飯",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "SouthEastAsian",
+      "genre_zh": "東南亞料理",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.02209627253203,
+      "longitude": 121.54290447954862,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%9E%97%E8%A8%98%E6%B5%B7%E5%8D%97%E9%9B%9E%E9%A3%AF/@25.02209627253203,121.54290447954862,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-098",
+      "name": "樂和牛排館",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Steak",
+      "genre_zh": "牛排館",
+      "price": 2,
+      "tags": [
+        "Gathering"
+      ],
+      "latitude": 25.024219823137816,
+      "longitude": 121.54280325682426,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%A8%82%E5%92%8C%E7%89%9B%E6%8E%92%E9%A4%A8/@25.024219823137816,121.54280325682426,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-099",
+      "name": "離城放感情",
+      "location": "Liuzhangli",
+      "location_zh": "六張犁",
+      "genre": "Bar",
+      "genre_zh": "酒吧",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.022481258565776,
+      "longitude": 121.55254939467139,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%9B%A2%E5%9F%8E%E6%94%BE%E6%84%9F%E6%83%85/@25.022481258565776,121.55254939467139,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-100",
+      "name": "老王原汁牛肉麵",
+      "location": "Liuzhangli",
+      "location_zh": "六張犁",
+      "genre": "Noodles",
+      "genre_zh": "麵店",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.02141225975906,
+      "longitude": 121.55486226055757,
+      "google_maps_url": "https://www.google.com/maps/search/%E8%80%81%E7%8E%8B%E5%8E%9F%E6%B1%81%E7%89%9B%E8%82%89%E9%BA%B5/@25.02141225975906,121.55486226055757,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-101",
+      "name": "藝素佳",
+      "location": "NTUST",
+      "location_zh": "台科大",
+      "genre": "Vegetarian",
+      "genre_zh": "素食",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01202963882365,
+      "longitude": 121.54086845042164,
+      "google_maps_url": "https://www.google.com/maps/search/%E8%97%9D%E7%B4%A0%E4%BD%B3/@25.01202963882365,121.54086845042164,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-102",
+      "name": "廣東鴨莊",
+      "location": "School",
+      "location_zh": "校內",
+      "genre": "Bento",
+      "genre_zh": "便當菜/快餐",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.021684778969764,
+      "longitude": 121.545982267581,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%BB%A3%E6%9D%B1%E9%B4%A8%E8%8E%8A/@25.021684778969764,121.545982267581,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-103",
+      "name": "祥賀魯肉飯",
+      "location": "School",
+      "location_zh": "校內",
+      "genre": "Bento",
+      "genre_zh": "便當菜/快餐",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.016091323672594,
+      "longitude": 121.54471589467121,
+      "google_maps_url": "https://www.google.com/maps/search/%E7%A5%A5%E8%B3%80%E9%AD%AF%E8%82%89%E9%A3%AF/@25.016091323672594,121.54471589467121,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-104",
+      "name": "翊芳庭生活館",
+      "location": "School",
+      "location_zh": "校內",
+      "genre": "Bento",
+      "genre_zh": "便當菜/快餐",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.015158806008543,
+      "longitude": 121.54702402350664,
+      "google_maps_url": "https://www.google.com/maps/search/%E7%BF%8A%E8%8A%B3%E5%BA%AD%E7%94%9F%E6%B4%BB%E9%A4%A8/@25.015158806008543,121.54702402350664,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-105",
+      "name": "翊芳庭生活館",
+      "location": "School",
+      "location_zh": "校內",
+      "genre": "Breakfast",
+      "genre_zh": "早餐店",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.015158806008543,
+      "longitude": 121.54702402350662,
+      "google_maps_url": "https://www.google.com/maps/search/%E7%BF%8A%E8%8A%B3%E5%BA%AD%E7%94%9F%E6%B4%BB%E9%A4%A8/@25.015158806008543,121.54702402350662,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-106",
+      "name": "御喜自助餐",
+      "location": "School",
+      "location_zh": "校內",
+      "genre": "Buffet",
+      "genre_zh": "自助餐",
+      "price": 1,
+      "tags": [
+        "OnePerson",
+        "Gathering"
+      ],
+      "latitude": 25.018456220883696,
+      "longitude": 121.54020442350676,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%BE%A1%E5%96%9C%E8%87%AA%E5%8A%A9%E9%A4%90/@25.018456220883696,121.54020442350676,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-107",
+      "name": "男一我家廚房自助餐",
+      "location": "School",
+      "location_zh": "校內",
+      "genre": "Buffet",
+      "genre_zh": "自助餐",
+      "price": 1,
+      "tags": [
+        "OnePerson",
+        "Gathering"
+      ],
+      "latitude": 25.016217336568687,
+      "longitude": 121.54473472350674,
+      "google_maps_url": "https://www.google.com/maps/search/%E7%94%B7%E4%B8%80%E6%88%91%E5%AE%B6%E5%BB%9A%E6%88%BF%E8%87%AA%E5%8A%A9%E9%A4%90/@25.016217336568687,121.54473472350674,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-108",
+      "name": "女九美味自主餐",
+      "location": "School",
+      "location_zh": "校內",
+      "genre": "Buffet",
+      "genre_zh": "自助餐",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.019675708867357,
+      "longitude": 121.5394966523424,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%A5%B3%E4%B9%9D%E7%BE%8E%E5%91%B3%E8%87%AA%E4%B8%BB%E9%A4%90/@25.019675708867357,121.5394966523424,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-109",
+      "name": "大一女美食餐廳",
+      "location": "School",
+      "location_zh": "校內",
+      "genre": "Buffet",
+      "genre_zh": "自助餐",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.0152714933954,
+      "longitude": 121.53506223558225,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%A4%A7%E4%B8%80%E5%A5%B3%E7%BE%8E%E9%A3%9F%E9%A4%90%E5%BB%B3/@25.0152714933954,121.53506223558225,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-110",
+      "name": "麥當勞-台北台大餐廳",
+      "location": "School",
+      "location_zh": "校內",
+      "genre": "FastFood",
+      "genre_zh": "速食",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01836479971548,
+      "longitude": 121.54021760822346,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%BA%A5%E7%95%B6%E5%8B%9E-%E5%8F%B0%E5%8C%97%E5%8F%B0%E5%A4%A7%E9%A4%90%E5%BB%B3/@25.01836479971548,121.54021760822346,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-111",
+      "name": "魯山人和風壽喜鍋物",
+      "location": "School",
+      "location_zh": "校內",
+      "genre": "HotPot",
+      "genre_zh": "小火鍋",
+      "price": 4,
+      "tags": [],
+      "latitude": 25.01297802265816,
+      "longitude": 121.5363851565713,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%AD%AF%E5%B1%B1%E4%BA%BA%E5%92%8C%E9%A2%A8%E5%A3%BD%E5%96%9C%E9%8D%8B%E7%89%A9/@25.01297802265816,121.5363851565713,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-112",
+      "name": "小木屋鬆餅",
+      "location": "School",
+      "location_zh": "校內",
+      "genre": "Light",
+      "genre_zh": "輕食",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01570015060915,
+      "longitude": 121.53754292484452,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%B0%8F%E6%9C%A8%E5%B1%8B%E9%AC%86%E9%A4%85/@25.01570015060915,121.53754292484452,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-113",
+      "name": "SUBWAY 台大店",
+      "location": "School",
+      "location_zh": "校內",
+      "genre": "Light",
+      "genre_zh": "輕食",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.013185706521924,
+      "longitude": 121.53656063759351,
+      "google_maps_url": "https://www.google.com/maps/search/SUBWAY%20%E5%8F%B0%E5%A4%A7%E5%BA%97/@25.013185706521924,121.53656063759351,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-114",
+      "name": "銀魚泰國料理 臺大小福店",
+      "location": "School",
+      "location_zh": "校內",
+      "genre": "SouthEastAsian",
+      "genre_zh": "東南亞料理",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.02190787324885,
+      "longitude": 121.53703808438816,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%8A%80%E9%AD%9A%E6%B3%B0%E5%9C%8B%E6%96%99%E7%90%86%20%E8%87%BA%E5%A4%A7%E5%B0%8F%E7%A6%8F%E5%BA%97/@25.02190787324885,121.53703808438816,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-115",
+      "name": "龐德羅莎",
+      "location": "School",
+      "location_zh": "校內",
+      "genre": "Steak",
+      "genre_zh": "牛排館",
+      "price": 4,
+      "tags": [
+        "Gathering",
+        "SlowEat"
+      ],
+      "latitude": 25.01330369628256,
+      "longitude": 121.53671488144475,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%BE%90%E5%BE%B7%E7%BE%85%E8%8E%8E/@25.01330369628256,121.53671488144475,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-116",
+      "name": "食香園素食館",
+      "location": "School",
+      "location_zh": "校內",
+      "genre": "Vegetarian",
+      "genre_zh": "素食",
+      "price": 1,
+      "tags": [
+        "OnePerson",
+        "FastServe",
+        "SlowEat"
+      ],
+      "latitude": 25.018281188084003,
+      "longitude": 121.54032745234232,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%A3%9F%E9%A6%99%E5%9C%92%E7%B4%A0%E9%A3%9F%E9%A4%A8/@25.018281188084003,121.54032745234232,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-117",
+      "name": "難吃",
+      "location": "Shida",
+      "location_zh": "師大",
+      "genre": "Bento",
+      "genre_zh": "便當菜/快餐",
+      "price": null,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.02205723740712,
+      "longitude": 121.52836063884895,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%9B%A3%E5%90%83/@25.02205723740712,121.52836063884895,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-118",
+      "name": "欒樹下書房/咖啡",
+      "location": "Shida",
+      "location_zh": "師大",
+      "genre": "Cafe",
+      "genre_zh": "咖啡廳",
+      "price": null,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.023523134967913,
+      "longitude": 121.5332359100135,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%AC%92%E6%A8%B9%E4%B8%8B%E6%9B%B8%E6%88%BF/%E5%92%96%E5%95%A1/@25.023523134967913,121.5332359100135,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-119",
+      "name": "鳳城燒臘粵菜",
+      "location": "XinshengSouth",
+      "location_zh": "新生南路",
+      "genre": "Bento",
+      "genre_zh": "便當菜/快餐",
+      "price": 1,
+      "tags": [
+        "OnePerson",
+        "Gathering",
+        "FastServe"
+      ],
+      "latitude": 25.020420414634923,
+      "longitude": 121.5339056765958,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%B3%B3%E5%9F%8E%E7%87%92%E8%87%98%E7%B2%B5%E8%8F%9C/@25.020420414634923,121.5339056765958,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-120",
+      "name": "柒食貳",
+      "location": "XinshengSouth",
+      "location_zh": "新生南路",
+      "genre": "Bento",
+      "genre_zh": "便當菜/快餐",
+      "price": 2,
+      "tags": [
+        "OnePerson",
+        "FastServe"
+      ],
+      "latitude": 25.019984274674897,
+      "longitude": 121.53289918117794,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%9F%92%E9%A3%9F%E8%B2%B3/@25.019984274674897,121.53289918117794,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-121",
+      "name": "光一肆號",
+      "location": "XinshengSouth",
+      "location_zh": "新生南路",
+      "genre": "BreakfastBrunch",
+      "genre_zh": "早午餐",
+      "price": 4,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.019284304654814,
+      "longitude": 121.53356328618207,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%85%89%E4%B8%80%E8%82%86%E8%99%9F/@25.019284304654814,121.53356328618207,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-122",
+      "name": "安好食 新生店",
+      "location": "XinshengSouth",
+      "location_zh": "新生南路",
+      "genre": "BreakfastBrunch",
+      "genre_zh": "早午餐",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.018853818885457,
+      "longitude": 121.5325629271598,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%AE%89%E5%A5%BD%E9%A3%9F%20%E6%96%B0%E7%94%9F%E5%BA%97/@25.018853818885457,121.5325629271598,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-123",
+      "name": "聞山咖啡台大店",
+      "location": "XinshengSouth",
+      "location_zh": "新生南路",
+      "genre": "Cafe",
+      "genre_zh": "咖啡廳",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.020877348298676,
+      "longitude": 121.53361315285201,
+      "google_maps_url": "https://www.google.com/maps/search/%E8%81%9E%E5%B1%B1%E5%92%96%E5%95%A1%E5%8F%B0%E5%A4%A7%E5%BA%97/@25.020877348298676,121.53361315285201,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-124",
+      "name": "阿英滷肉飯",
+      "location": "XinshengSouth",
+      "location_zh": "新生南路",
+      "genre": "Chinese",
+      "genre_zh": "中式餐廳",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.019730757541257,
+      "longitude": 121.53200977619163,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%98%BF%E8%8B%B1%E6%BB%B7%E8%82%89%E9%A3%AF/@25.019730757541257,121.53200977619163,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-125",
+      "name": "上賀麵食館",
+      "location": "XinshengSouth",
+      "location_zh": "新生南路",
+      "genre": "Chinese",
+      "genre_zh": "中式餐廳",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.017188687687494,
+      "longitude": 121.53254976418253,
+      "google_maps_url": "https://www.google.com/maps/search/%E4%B8%8A%E8%B3%80%E9%BA%B5%E9%A3%9F%E9%A4%A8/@25.017188687687494,121.53254976418253,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-126",
+      "name": "小飯廳",
+      "location": "XinshengSouth",
+      "location_zh": "新生南路",
+      "genre": "Chinese",
+      "genre_zh": "中式餐廳",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.013947081015683,
+      "longitude": 121.5354250105537,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%B0%8F%E9%A3%AF%E5%BB%B3/@25.013947081015683,121.5354250105537,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-127",
+      "name": "臺一牛奶大王",
+      "location": "XinshengSouth",
+      "location_zh": "新生南路",
+      "genre": "Dessert",
+      "genre_zh": "甜點店",
+      "price": 1,
+      "tags": [
+        "OnePerson",
+        "Gathering"
+      ],
+      "latitude": 25.019014278278448,
+      "longitude": 121.5335155732449,
+      "google_maps_url": "https://www.google.com/maps/search/%E8%87%BA%E4%B8%80%E7%89%9B%E5%A5%B6%E5%A4%A7%E7%8E%8B/@25.019014278278448,121.5335155732449,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-128",
+      "name": "coco brownies",
+      "location": "XinshengSouth",
+      "location_zh": "新生南路",
+      "genre": "Dessert",
+      "genre_zh": "甜點店",
+      "price": 3,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.017903520768577,
+      "longitude": 121.5325902111337,
+      "google_maps_url": "https://www.google.com/maps/search/coco%20brownies/@25.017903520768577,121.5325902111337,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-129",
+      "name": "行運冰室",
+      "location": "XinshengSouth",
+      "location_zh": "新生南路",
+      "genre": "HongKong",
+      "genre_zh": "港式料理",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.019841197834563,
+      "longitude": 121.53157984571773,
+      "google_maps_url": "https://www.google.com/maps/search/%E8%A1%8C%E9%81%8B%E5%86%B0%E5%AE%A4/@25.019841197834563,121.53157984571773,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-130",
+      "name": "溏老鴨平價小火鍋",
+      "location": "XinshengSouth",
+      "location_zh": "新生南路",
+      "genre": "HotPot",
+      "genre_zh": "小火鍋",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01963657499361,
+      "longitude": 121.53337530808909,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%BA%8F%E8%80%81%E9%B4%A8%E5%B9%B3%E5%83%B9%E5%B0%8F%E7%81%AB%E9%8D%8B/@25.01963657499361,121.53337530808909,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-131",
+      "name": "NoName無名咖哩 台大店",
+      "location": "XinshengSouth",
+      "location_zh": "新生南路",
+      "genre": "Indian",
+      "genre_zh": "印度",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.019728197979795,
+      "longitude": 121.5334506446073,
+      "google_maps_url": "https://www.google.com/maps/search/NoName%E7%84%A1%E5%90%8D%E5%92%96%E5%93%A9%20%E5%8F%B0%E5%A4%A7%E5%BA%97/@25.019728197979795,121.5334506446073,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-132",
+      "name": "pasta 2 go",
+      "location": "XinshengSouth",
+      "location_zh": "新生南路",
+      "genre": "Italian",
+      "genre_zh": "義式料理",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.019540141595048,
+      "longitude": 121.53358875234228,
+      "google_maps_url": "https://www.google.com/maps/search/pasta%202%20go/@25.019540141595048,121.53358875234228,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-133",
+      "name": "蘇活義大利麵坊",
+      "location": "XinshengSouth",
+      "location_zh": "新生南路",
+      "genre": "Italian",
+      "genre_zh": "義式料理",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.02014029887478,
+      "longitude": 121.53352741151602,
+      "google_maps_url": "https://www.google.com/maps/search/%E8%98%87%E6%B4%BB%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5%E5%9D%8A/@25.02014029887478,121.53352741151602,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-134",
+      "name": "稻咖哩",
+      "location": "XinshengSouth",
+      "location_zh": "新生南路",
+      "genre": "Japanese",
+      "genre_zh": "日式料理",
+      "price": 3,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.020167174414055,
+      "longitude": 121.53307515234246,
+      "google_maps_url": "https://www.google.com/maps/search/%E7%A8%BB%E5%92%96%E5%93%A9/@25.020167174414055,121.53307515234246,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-135",
+      "name": "爭鮮迴轉壽司",
+      "location": "XinshengSouth",
+      "location_zh": "新生南路",
+      "genre": "Japanese",
+      "genre_zh": "日式料理",
+      "price": 5,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01807122877956,
+      "longitude": 121.53330367873276,
+      "google_maps_url": "https://www.google.com/maps/search/%E7%88%AD%E9%AE%AE%E8%BF%B4%E8%BD%89%E5%A3%BD%E5%8F%B8/@25.01807122877956,121.53330367873276,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-136",
+      "name": "好想吃冰",
+      "location": "XinshengSouth",
+      "location_zh": "新生南路",
+      "genre": "Japanese",
+      "genre_zh": "日式料理",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.023066091429794,
+      "longitude": 121.53172935365068,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%A5%BD%E6%83%B3%E5%90%83%E5%86%B0/@25.023066091429794,121.53172935365068,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-137",
+      "name": "小川西堂",
+      "location": "XinshengSouth",
+      "location_zh": "新生南路",
+      "genre": "Noodles",
+      "genre_zh": "麵店",
+      "price": 3,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01968422256404,
+      "longitude": 121.53186957643544,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%B0%8F%E5%B7%9D%E8%A5%BF%E5%A0%82/@25.01968422256404,121.53186957643544,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-138",
+      "name": "吉天元拉麵",
+      "location": "XinshengSouth",
+      "location_zh": "新生南路",
+      "genre": "Ramen",
+      "genre_zh": "拉麵店",
+      "price": 4,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.016819064061266,
+      "longitude": 121.53285354721342,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%90%89%E5%A4%A9%E5%85%83%E6%8B%89%E9%BA%B5/@25.016819064061266,121.53285354721342,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-139",
+      "name": "麵屋長樂",
+      "location": "XinshengSouth",
+      "location_zh": "新生南路",
+      "genre": "Ramen",
+      "genre_zh": "拉麵店",
+      "price": 4,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01893650127612,
+      "longitude": 121.53294962714187,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%BA%B5%E5%B1%8B%E9%95%B7%E6%A8%82/@25.01893650127612,121.53294962714187,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-140",
+      "name": "麥子磨麵",
+      "location": "XinshengSouth",
+      "location_zh": "新生南路",
+      "genre": "Ramen",
+      "genre_zh": "拉麵店",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.018663423729755,
+      "longitude": 121.53172565526286,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%BA%A5%E5%AD%90%E7%A3%A8%E9%BA%B5/@25.018663423729755,121.53172565526286,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-141",
+      "name": "越南清化河粉",
+      "location": "XinshengSouth",
+      "location_zh": "新生南路",
+      "genre": "SouthEastAsian",
+      "genre_zh": "東南亞料理",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.018911764787465,
+      "longitude": 121.53257232535536,
+      "google_maps_url": "https://www.google.com/maps/search/%E8%B6%8A%E5%8D%97%E6%B8%85%E5%8C%96%E6%B2%B3%E7%B2%89/@25.018911764787465,121.53257232535536,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-142",
+      "name": "香港三民燒臘",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "HongKong",
+      "genre_zh": "港式料理",
+      "price": 2,
+      "tags": [
+        "OnePerson",
+        "FastServe"
+      ],
+      "latitude": 25.022381079525925,
+      "longitude": 121.54317445132557,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%A6%99%E6%B8%AF%E4%B8%89%E6%B0%91%E7%87%92%E8%87%98/@25.022381079525925,121.54317445132557,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-143",
+      "name": "伊桑泰式炭烤雞腿便當店",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Bento",
+      "genre_zh": "便當菜/快餐",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.021865820099276,
+      "longitude": 121.54291159483283,
+      "google_maps_url": "https://www.google.com/maps/search/%E4%BC%8A%E6%A1%91%E6%B3%B0%E5%BC%8F%E7%82%AD%E7%83%A4%E9%9B%9E%E8%85%BF%E4%BE%BF%E7%95%B6%E5%BA%97/@25.021865820099276,121.54291159483283,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-144",
+      "name": "台灣第一腿(泰式碳烤)",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Bento",
+      "genre_zh": "便當菜/快餐",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.021904707678626,
+      "longitude": 121.54294378134215,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%8F%B0%E7%81%A3%E7%AC%AC%E4%B8%80%E8%85%BF%28%E6%B3%B0%E5%BC%8F%E7%A2%B3%E7%83%A4%29/@25.021904707678626,121.54294378134215,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-145",
+      "name": "小拾聚餐食館",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Chinese",
+      "genre_zh": "中式餐廳",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.023981421670342,
+      "longitude": 121.54356861786367,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%B0%8F%E6%8B%BE%E8%81%9A%E9%A4%90%E9%A3%9F%E9%A4%A8/@25.023981421670342,121.54356861786367,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-146",
+      "name": "小圓村",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Bento",
+      "genre_zh": "便當菜/快餐",
+      "price": 2,
+      "tags": [
+        "OnePerson",
+        "Gathering"
+      ],
+      "latitude": 25.023202700641605,
+      "longitude": 121.54294563995475,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%B0%8F%E5%9C%93%E6%9D%91/@25.023202700641605,121.54294563995475,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-147",
+      "name": "邦食堂",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Bento",
+      "genre_zh": "便當菜/快餐",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.02305687369755,
+      "longitude": 121.54261841044342,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%82%A6%E9%A3%9F%E5%A0%82/@25.02305687369755,121.54261841044342,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-148",
+      "name": "池先生(大安店）",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "SouthEastAsian",
+      "genre_zh": "東南亞料理",
+      "price": 3,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.022293709845382,
+      "longitude": 121.54353036150717,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%B1%A0%E5%85%88%E7%94%9F%28%E5%A4%A7%E5%AE%89%E5%BA%97%EF%BC%89/@25.022293709845382,121.54353036150717,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-149",
+      "name": "叮叮食堂",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Bento",
+      "genre_zh": "便當菜/快餐",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.021959635884688,
+      "longitude": 121.54288523167497,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%8F%AE%E5%8F%AE%E9%A3%9F%E5%A0%82/@25.021959635884688,121.54288523167497,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-150",
+      "name": "潭莊小卷米粉",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Chinese",
+      "genre_zh": "中式餐廳",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.02286638941356,
+      "longitude": 121.5432269948397,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%BD%AD%E8%8E%8A%E5%B0%8F%E5%8D%B7%E7%B1%B3%E7%B2%89/@25.02286638941356,121.5432269948397,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-151",
+      "name": "親來食堂",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Bento",
+      "genre_zh": "便當菜/快餐",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.022389288843755,
+      "longitude": 121.54225050251794,
+      "google_maps_url": "https://www.google.com/maps/search/%E8%A6%AA%E4%BE%86%E9%A3%9F%E5%A0%82/@25.022389288843755,121.54225050251794,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-152",
+      "name": "滇味小廚",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Bento",
+      "genre_zh": "便當菜/快餐",
+      "price": 2,
+      "tags": [
+        "OnePerson",
+        "Gathering"
+      ],
+      "latitude": 25.022889963357184,
+      "longitude": 121.54286204616628,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%BB%87%E5%91%B3%E5%B0%8F%E5%BB%9A/@25.022889963357184,121.54286204616628,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-153",
+      "name": "新丼 和平店",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Japanese",
+      "genre_zh": "日式料理",
+      "price": 2,
+      "tags": [
+        "OnePerson",
+        "Gathering"
+      ],
+      "latitude": 25.023034392522923,
+      "longitude": 121.54293717701621,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%96%B0%E4%B8%BC%20%E5%92%8C%E5%B9%B3%E5%BA%97/@25.023034392522923,121.54293717701621,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-154",
+      "name": "芝加哥比薩",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "American",
+      "genre_zh": "美式餐廳",
+      "price": 2,
+      "tags": [
+        "OnePerson",
+        "Gathering"
+      ],
+      "latitude": 25.022378169010565,
+      "longitude": 121.54353799185678,
+      "google_maps_url": "https://www.google.com/maps/search/%E8%8A%9D%E5%8A%A0%E5%93%A5%E6%AF%94%E8%96%A9/@25.022378169010565,121.54353799185678,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-155",
+      "name": "西藏廚房",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Exotic",
+      "genre_zh": "異國料理",
+      "price": 3,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.02527843793345,
+      "longitude": 121.54260361786368,
+      "google_maps_url": "https://www.google.com/maps/search/%E8%A5%BF%E8%97%8F%E5%BB%9A%E6%88%BF/@25.02527843793345,121.54260361786368,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-156",
+      "name": "瀧厚炙燒熟成牛排",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Steak",
+      "genre_zh": "牛排館",
+      "price": 3,
+      "tags": [],
+      "latitude": 25.025553527459547,
+      "longitude": 121.54186150804016,
+      "google_maps_url": "https://www.google.com/maps/search/%E7%80%A7%E5%8E%9A%E7%82%99%E7%87%92%E7%86%9F%E6%88%90%E7%89%9B%E6%8E%92/@25.025553527459547,121.54186150804016,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-157",
+      "name": "泔 米食堂",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Chinese",
+      "genre_zh": "中式餐廳",
+      "price": 3,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.02595277910447,
+      "longitude": 121.54167791726142,
+      "google_maps_url": "https://www.google.com/maps/search/%E6%B3%94%20%E7%B1%B3%E9%A3%9F%E5%A0%82/@25.02595277910447,121.54167791726142,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-158",
+      "name": "芝鄉涼麵",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Noodles",
+      "genre_zh": "麵店",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.025977603645735,
+      "longitude": 121.5450432168933,
+      "google_maps_url": "https://www.google.com/maps/search/%E8%8A%9D%E9%84%89%E6%B6%BC%E9%BA%B5/@25.025977603645735,121.5450432168933,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-159",
+      "name": "願有記",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "HongKong",
+      "genre_zh": "港式料理",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.02328493499107,
+      "longitude": 121.54265250923271,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%A1%98%E6%9C%89%E8%A8%98/@25.02328493499107,121.54265250923271,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-160",
+      "name": "郭董麻辣牛肉麵",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Noodles",
+      "genre_zh": "麵店",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.0227990336037,
+      "longitude": 121.54285359679294,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%83%AD%E8%91%A3%E9%BA%BB%E8%BE%A3%E7%89%9B%E8%82%89%E9%BA%B5/@25.0227990336037,121.54285359679294,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-161",
+      "name": "卡帛素食烘培",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Vegetarian",
+      "genre_zh": "素食",
+      "price": 3,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.024115012077875,
+      "longitude": 121.54294296904195,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%8D%A1%E5%B8%9B%E7%B4%A0%E9%A3%9F%E7%83%98%E5%9F%B9/@25.024115012077875,121.54294296904195,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-162",
+      "name": "大安米粉湯",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Noodles",
+      "genre_zh": "麵店",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.0236469,
+      "longitude": 121.5434687,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%A4%A7%E5%AE%89%E7%B1%B3%E7%B2%89%E6%B9%AF/@25.0236469,121.5434687,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-163",
+      "name": "16 by Flo",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "French",
+      "genre_zh": "法式料理",
+      "price": 4,
+      "tags": [],
+      "latitude": 25.024115012077875,
+      "longitude": 121.54263016617047,
+      "google_maps_url": "https://www.google.com/maps/search/16%20by%20Flo/@25.024115012077875,121.54263016617047,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-164",
+      "name": "丼壽司",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Japanese",
+      "genre_zh": "日式料理",
+      "price": 3,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.0152868,
+      "longitude": 121.5321659,
+      "google_maps_url": "https://www.google.com/maps/search/%E4%B8%BC%E5%A3%BD%E5%8F%B8/@25.0152868,121.5321659,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-165",
+      "name": "阿薄郎",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Chinese",
+      "genre_zh": "中式餐廳",
+      "price": 3,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01454,
+      "longitude": 121.5329075,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%98%BF%E8%96%84%E9%83%8E/@25.01454,121.5329075,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-166",
+      "name": "燒肉政宗-中正店",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Japanese",
+      "genre_zh": "日式料理",
+      "price": 3,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.0149024,
+      "longitude": 121.5336857,
+      "google_maps_url": "https://www.google.com/maps/search/%E7%87%92%E8%82%89%E6%94%BF%E5%AE%97-%E4%B8%AD%E6%AD%A3%E5%BA%97/@25.0149024,121.5336857,17z",
+      "comments": "出示學生證可更換和牛漢堡排"
+    },
+    {
+      "id": "ntufood-167",
+      "name": "點亮咖啡",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Cafe",
+      "genre_zh": "咖啡廳",
+      "price": 3,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.0230535,
+      "longitude": 121.5414269,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%BB%9E%E4%BA%AE%E5%92%96%E5%95%A1/@25.0230535,121.5414269,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-168",
+      "name": "小旺號",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "FastFood",
+      "genre_zh": "速食",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.02595277910447,
+      "longitude": 121.54167791726142,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%B0%8F%E6%97%BA%E8%99%9F/@25.02595277910447,121.54167791726142,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-169",
+      "name": "好呷拉麵(公館店)",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Ramen",
+      "genre_zh": "拉麵店",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.014079563907988,
+      "longitude": 121.53364532883488,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%A5%BD%E5%91%B7%E6%8B%89%E9%BA%B5%28%E5%85%AC%E9%A4%A8%E5%BA%97%29/@25.014079563907988,121.53364532883488,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-170",
+      "name": "好呷拉麵(師大店)",
+      "location": "Shida",
+      "location_zh": "師大",
+      "genre": "Ramen",
+      "genre_zh": "拉麵店",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.02420166458898,
+      "longitude": 121.52923936743332,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%A5%BD%E5%91%B7%E6%8B%89%E9%BA%B5%28%E5%B8%AB%E5%A4%A7%E5%BA%97%29/@25.02420166458898,121.52923936743332,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-171",
+      "name": "丼丼Go",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Japanese",
+      "genre_zh": "日式料理",
+      "price": 1,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.01432600199,
+      "longitude": 121.533512967421,
+      "google_maps_url": "https://www.google.com/maps/search/%E4%B8%BC%E4%B8%BCGo/@25.01432600199,121.533512967421,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-172",
+      "name": "耍性子 Xai Xing De",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Light",
+      "genre_zh": "輕食",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.0221875,
+      "longitude": 121.5419375,
+      "google_maps_url": "https://www.google.com/maps/search/%E8%80%8D%E6%80%A7%E5%AD%90%20Xai%20Xing%20De/@25.0221875,121.5419375,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-173",
+      "name": "1212小食堂",
+      "location": "Heping118",
+      "location_zh": "118 巷",
+      "genre": "Chinese",
+      "genre_zh": "中式餐廳",
+      "price": 2,
+      "tags": [
+        "OnePerson"
+      ],
+      "latitude": 25.0221114,
+      "longitude": 121.5398809,
+      "google_maps_url": "https://www.google.com/maps/search/1212%E5%B0%8F%E9%A3%9F%E5%A0%82/@25.0221114,121.5398809,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-174",
+      "name": "好吃好吃牛排",
+      "location": "Gongguan",
+      "location_zh": "公館",
+      "genre": "Steak",
+      "genre_zh": "牛排館",
+      "price": 3,
+      "tags": [],
+      "latitude": 25.0154479,
+      "longitude": 121.5297786,
+      "google_maps_url": "https://www.google.com/maps/search/%E5%A5%BD%E5%90%83%E5%A5%BD%E5%90%83%E7%89%9B%E6%8E%92/@25.0154479,121.5297786,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-175",
+      "name": "霞飛驛歐法西餐",
+      "location": "XinshengSouth",
+      "location_zh": "新生南路",
+      "genre": "French",
+      "genre_zh": "法式料理",
+      "price": 5,
+      "tags": [
+        "Gathering",
+        "Dating",
+        "SlowEat"
+      ],
+      "latitude": 25.0200278,
+      "longitude": 121.5308945,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%9C%9E%E9%A3%9B%E9%A9%9B%E6%AD%90%E6%B3%95%E8%A5%BF%E9%A4%90/@25.0200278,121.5308945,17z",
+      "comments": ""
+    },
+    {
+      "id": "ntufood-176",
+      "name": "金晶雞",
+      "location": "NTUMed",
+      "location_zh": "醫學院",
+      "genre": "Chinese",
+      "genre_zh": "中式餐廳",
+      "price": 3,
+      "tags": [
+        "OnePerson",
+        "Gathering"
+      ],
+      "latitude": 25.044010309197517,
+      "longitude": 121.5262035644178,
+      "google_maps_url": "https://www.google.com/maps/search/%E9%87%91%E6%99%B6%E9%9B%9E/@25.044010309197517,121.5262035644178,17z",
+      "comments": ""
+    }
+  ]
+}
